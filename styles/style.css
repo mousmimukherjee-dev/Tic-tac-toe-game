@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: bisque;
+  color: orange;
+  text-align: center;
+}
+
+.container {
+  height: 70vh;
+  width: 70vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 1.5vmin;
+}
+
+.game {
+  height: 60vmin;
+  width: 60vmin;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5vmin;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.box {
+  height: 16vmin;
+  width: 16vmin;
+  border-radius: 1rem;
+  box-shadow: 0 0 2rem rgba(0,0,0,0.6);
+  border: none;
+  font-size: 8vmin; 
+  background-color: white; 
+  color: black;
+}
+
+#btn_reset{
+
+  padding: 0.5rem;
+  border-radius: 8px;
+  font-size: 1.25rem;
+  background-color: orange;
+  box-shadow: 0 0 2rem rgba(0,0,0,0.6);
+  border: none;
+}
+
+#btnRestart{
+
+  padding: 0.5rem;
+  border-radius: 8px;
+  font-size: 1.25rem;
+  background-color: orange;
+  box-shadow: 0 0 2rem rgba(0,0,0,0.6);
+  border: none;
+
+}
+
+#msg{
+
+  color: white;
+  font-size: 6vmin;
+}
+.msgContainer{
+
+  height: 30vmin;
+  padding: 1rem;
+}
+
+.hide{
+
+  display: none;
+}
+
+.oClass{
+
+  color: gray;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.xClass{
+
+  color: blue;
+  font-family: 'Times New Roman', Times, serif;
+}
